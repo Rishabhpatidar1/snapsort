@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    background-color: #6C00FF;
+    padding: 20px;
+}
+
+.left .nav{
+    height: 50px;
+    width: 100%;
+}
+
+.left img{
+    width: 200px;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left h1{
+    font-family: "gilroy";
+    font-weight: 600;
+    text-align: center;
+    font-size: 60px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 60px;
+}
+
+.maintext img{
+  width: 90%;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: #F3F5F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.right h2{
+    font-family: "gilroy";
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.right h4{
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 20px;
+    color: #666;
+    margin-top: 26px;
+    letter-spacing: 1.1px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.email1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+label{
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+input{
+    height: 50px;
+    width: 400px;
+    font-family: "gilroy";
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px 14px;
+    letter-spacing: 1.1px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.137);
+    border: none;
+}
+
+#forgot label{
+    margin-bottom: 0px !important;
+}
+
+#forgot{   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#forgot a{
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #0073E9;
+    letter-spacing: 1px;
+}
+
+#buttonc{
+    font-size: 21px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-top: 48px;
+    background-color: #0073E9;
+    color: white;
+    cursor: pointer;
+}
+
+#regist{
+    display: block;
+    font-family: "gilroy";
+    font-weight: 500;
+    font-size: 15px;
+    /* text-transform: capitalize; */
+    text-align: center;
+    text-decoration: none;
+    margin-top: 34px;
+    color: #0073E9;
+    letter-spacing: 1px;
+}
